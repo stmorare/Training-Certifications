@@ -7,8 +7,9 @@
 <style>
   body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial; margin:0;background:#f4f7fb;color:#111}
   header{padding:2rem;text-align:center}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;padding:1rem;max-width:1100px;margin:0 auto}
-  .card{background:white;border-radius:12px;padding:1rem;box-shadow:0 8px 20px rgba(0,0,0,0.06);text-align:center}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;padding:1.5rem;max-width:1200px;margin:0 auto}
+  .card{background:white;border-radius:12px;padding:1rem;box-shadow:0 8px 20px rgba(0,0,0,0.06);text-align:center;transition:transform 0.2s ease}
+  .card:hover{transform:translateY(-4px)}
   img{max-width:100%;height:auto;border-radius:8px}
   a{color:inherit;text-decoration:none}
   h3{margin:.5rem 0 0}
@@ -18,19 +19,18 @@
 <body>
 <header>
   <h1>IT Training Certificates — Simphiwe Morare</h1>
-  <p>Click any card to open the certificate (opens in a new tab).</p>
+  <p>Click any card to view the full certificate (opens in a new tab).</p>
 </header>
 
 <main class="grid">
+  <!-- Udemy Certificate -->
   <article class="card">
-    <a href="certificates/CompTIA-Aplus-2024.pdf" target="_blank" rel="noopener noreferrer">
-      <img src="certificates/CompTIA-Aplus-thumb.png" alt="CompTIA A+ thumbnail">
-      <h3>CompTIA A+</h3>
-      <small>Issued: 2024 • Issuer: CompTIA</small>
+    <a href="certificates/Network-and-Systems-Administrator-Technical-Training.pdf" target="_blank" rel="noopener noreferrer">
+      <img src="certificates/Network-and-Systems-Administrator-Technical-Training.jpg" alt="Network and Systems Administrator Technical Training">
+      <h3>Network and Systems Administrator Technical Training</h3>
+      <small>Issuer: Udemy (Jobskillshare Community) • Issued: Sept 23, 2025</small>
     </a>
   </article>
-
-  <!-- Copy/paste one block per certificate and update filename, text, dates -->
 </main>
 </body>
 </html>
